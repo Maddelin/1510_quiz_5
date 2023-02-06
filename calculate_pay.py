@@ -7,7 +7,7 @@
 
 
 def calculate_pay(hours, wage):
-    if hours < 1 or wage < 1:
+    if hours <= 0 or wage <= 0:
         pay = 0
         return pay
     elif hours > 40:
@@ -19,7 +19,7 @@ def calculate_pay(hours, wage):
 
 
 def main():
-    example = calculate_pay(20, 10)
+    example = calculate_pay(20, 0.25)
     print(example)
 
 
