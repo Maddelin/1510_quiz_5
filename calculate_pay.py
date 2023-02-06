@@ -1,8 +1,8 @@
 """
->>> calculate_pay(20, 20)
-400
->>> calculate_pay(50, 20)
-1200
+>>> calculate_pay(10, 10)
+100
+>>> calculate_pay(50, 10)
+600
 """
 
 
@@ -19,7 +19,7 @@ def calculate_pay(hours, wage):
 
 
 def main():
-    example = calculate_pay(1, 20)
+    example = calculate_pay(20, 10)
     print(example)
 
 
